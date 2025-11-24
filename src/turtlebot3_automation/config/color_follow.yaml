@@ -1,0 +1,11 @@
+color_follow_node:
+  ros__parameters:
+    target_color: "red"
+    camera_topic: "/camera/color/image_raw"
+    cmd_vel_topic: "/cmd_vel"
+    linear_speed: 0.12
+    angular_gain: 0.0025
+    area_gain: 0.000002
+    max_angular: 0.6
+    max_linear: 0.18
+    min_area: 100
